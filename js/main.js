@@ -1,18 +1,22 @@
 for(let i = 1; i <= 100; i++) {
 
+   const griglia = document.getElementById("griglia");
+   const div = document.createElement("div");
+
    if (i % 15 == 0) {
-      console.log("FizzBuzz");
+      div.append("FizzBuzz");
+      div.className = "fizzbuzz";
    } else if (i % 5 == 0) {
-      console.log("Buzz");
+      div.append("Buzz");
+      div.className = "buzz";
    } else if (i % 3 == 0) {
-      console.log("Fizz");
+      div.append("Fizz");
+      div.className = "fizz";
    } else {
-      console.log(i);
+      div.append(i);
+      div.className = "numeri";
    }
+
+   griglia.append(div);
 }
 
-
-// const griglia = document.getElementById("griglia");
-// const div = document.createElement("div");
-// div.append(i);
-// griglia.append(div);

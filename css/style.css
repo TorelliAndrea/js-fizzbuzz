@@ -1,4 +1,4 @@
-/* *{
+*{
    font-family: sans-serif;
 }
 
@@ -6,11 +6,31 @@ body{
    background-color: #183A4A;
 }
 
+#griglia{
+   max-width: 1000px;
+   margin: auto;
+}
+
 #griglia div{
    height: 5rem;
    width: 5rem;
    margin: 0.5rem;
-   background-color: #3D88AE;
    text-align: center;
    line-height: 5rem;
-} */
+}
+
+.fizz{
+   background-color: #61D2A4;
+}
+
+.buzz{
+   background-color: #F9D277;
+}
+
+.fizzbuzz{
+   background-color: #DE5471;
+}
+
+.numeri{
+   background-color: #3D88AE;
+}
