@@ -10,10 +10,12 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="p-0 m-0">
-       
         <div class="container">
-            <h1 class="fw-bold text-white m-5 text-center">FizzBuzzDOM</h1>
-            <h2 id="counter"></h2>
+            <h1 class="fw-bold text-white mt-3 text-center">FizzBuzzDOM</h1>
+            <div class="d-flex justify-content-between w-50 m-auto py-3">
+                <button id="reset" class="btn btn-danger color-white fw-bold">Reset</button>
+                <h2 class="text-white text-center">Hai totalizzato: <span id="counter">0</span> punti!</h2>
+            </div>        
             <div id="griglia" class="d-flex flex-wrap"></div>
         </div>
         <script type="text/javascript" src="js/main.js"></script>
